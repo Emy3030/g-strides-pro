@@ -95,11 +95,11 @@ export default function Navbar() {
         {menuOpen && (
           <motion.div
             key="mobile-menu"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -20 }}
             transition={{ duration: 0.25 }}
-            className="fixed inset-0 z-40 bg-white flex flex-col pt-[72px] px-6 pb-8 lg:hidden overflow-y-auto"
+            className="fixed inset-0 z-40 bg-white flex flex-col pt-[72px] px-6 pb-8 lg:hidden overflow-x-auto w-[50%]"
           >
             <ul className="flex flex-col gap-1 list-none mt-2">
               {NAV_LINKS.map(({ label, href }) => (
@@ -119,7 +119,7 @@ export default function Navbar() {
             </ul>
             <button
               onClick={() => handleNav('#contact')}
-              className="btn-primary mt-auto w-full justify-center text-center"
+              className="btn-primary mt-10 w-full justify-center text-center"
             >
               Let's Talk →
             </button>
