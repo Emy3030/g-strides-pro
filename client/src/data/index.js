@@ -1,41 +1,41 @@
 // ── Images (imported in components via these keys) ──────────────────────────
 export const IMAGES = {
-  logo:            '/src/assets/images/logo.svg',
-  heroPhoto:       '/public/images/Adobe Express - file (1).png',
-  heroPhoto2:       '/public/images/hero-smaller.png',
-  aboutPhoto:      '/public/images/Adobe Express - file (2).png',
-  contactPhoto:    '/public/images/Adobe Express - file.webp',
+  logo:            '/images/logo.svg',
+  heroPhoto:       '/images/Adobe Express - file (1).png',
+  heroPhoto2:       '/images/hero-smaller.png',
+  aboutPhoto:      '/images/Adobe Express - file (2).png',
+  contactPhoto:    '/images/Adobe Express - file.webp',
 
   // Projects
-  finDashboard:    '/public/images/luke-chesser-JKUTrJ4vK00-unsplash.webp',
-  taskMgmt:        '/public/images/task-app.webp',
-  ecommerce:       '/public/images/kobu-agency-7okkFhxrxNw-unsplash.webp',
-  fitnessApp:      '/public/images/fitness-app.webp',
-  musicPlayer:     '/public/images/music-app.webp',
-  realEstate:      '/public/images/real-estate.webp',
-  chatApp:         '/public/images/chat-app.webp',
-  weatherApp:      '/public/images/weather-app.webp',
+  finDashboard:    '/images/luke-chesser-JKUTrJ4vK00-unsplash.webp',
+  taskMgmt:        '/images/task-app.webp',
+  ecommerce:       '/images/kobu-agency-7okkFhxrxNw-unsplash.webp',
+  fitnessApp:      '/images/fitness-app.webp',
+  musicPlayer:     '/images/music-app.webp',
+  realEstate:      '/images/real-estate.webp',
+  chatApp:         '/images/chat-app.webp',
+  weatherApp:      '/images/weather-app.webp',
 
   // Services
   svcWeb:          '/public/images/web-design.webp',
-  svcMobile:       '/public/images/mobile-app.webp',
-  svcUiux:         '/public/images/ui-ux.webp',
+  svcMobile:       '/images/mobile-app.webp',
+  svcUiux:         '/images/ui-ux.webp',
 
   // Blog
-  blogWeb:         '/public/images/web-developers.jfif',
-  blogReact:       '/public/images/react-tips (1).webp',
-  blogUiux:        '/public/images/ui-ux_designers (1).webp',
+  blogWeb:         '/images/web-developers.jfif',
+  blogReact:       '/images/react-tips (1).webp',
+  blogUiux:        '/images/ui-ux_designers (1).webp',
 
   // Tech
-  techReact:       '/public/images/React.png',
-  techNext:        '/public/images/next.png',
-  techRN:          '/public/images/React.png',
-  techNode:        '/public/images/Node.js.png',
-  techJS:          '/public/images/JavaScript.png',
-  techTS:          '/public/images/TypeScript.png',
-  techTailwind:    '/public/images/Tailwind CSS.png',
-  techFirebase:    '/public/images/Firebase.png',
-  techGithub:      '/public/images/GitHub.png',
+  techReact:       '/images/React.png',
+  techNext:        '/images/next.png',
+  techRN:          '/images/React.png',
+  techNode:        '/images/Node.js.png',
+  techJS:          '/images/JavaScript.png',
+  techTS:          '/images/TypeScript.png',
+  techTailwind:    '/images/Tailwind CSS.png',
+  techFirebase:    '/images/Firebase.png',
+  techGithub:      '/images/GitHub.png',
 }
 
 // ── Nav links ────────────────────────────────────────────────────────────────
