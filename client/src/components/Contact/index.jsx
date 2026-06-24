@@ -149,7 +149,7 @@ export default function Contact() {
           </p>
           <button
             onClick={() => setSuccess(false)}
-            className="mt-1 bg-white text-[#1155cc] font-semibold text-sm px-6 py-2.5 rounded-lg hover:bg-white/90 transition"
+            className="mt-1 bg-white text-[rgb(17,85,204)] font-semibold text-sm px-6 py-2.5 rounded-lg hover:bg-white/90 transition"
           >
             Send Another
           </button>
@@ -227,7 +227,7 @@ export default function Contact() {
                     Select budget
                   </option>
                   {BUDGETS.map((b) => (
-                    <option key={b} value={b} className="bg-[#1a6ef5]">
+                    <option key={b} value={b} className="bg-[#13489d74]">
                       {b}
                     </option>
                   ))}
